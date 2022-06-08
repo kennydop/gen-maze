@@ -1,0 +1,480 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.1f1 (53d13f540f71) revision 5493055'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 7872 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/game-development/pro-maze-generator-test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54121
+Successfully changed project path to: C:/Projects/game-development/pro-maze-generator-test
+C:/Projects/game-development/pro-maze-generator-test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 200.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.1f1 (53d13f540f71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/game-development/pro-maze-generator-test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     3936 MB
+    Driver:   20.19.15.4531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022441 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 186.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2102ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1547ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+				TypeCache.Initialize (320ms)
+					TypeCache.ScanAssembly (317ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (965ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (155ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (243ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019735 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\game-development\pro-maze-generator-test\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\game-development\pro-maze-generator-test\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3240ms)
+		BeginReloadAssembly (431ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (158ms)
+		EndReloadAssembly (2514ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (816ms)
+				TypeCache.Initialize (803ms)
+					TypeCache.ScanAssembly (793ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (1137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (160ms)
+				SetLoadedEditorAssemblies (21ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (58.2 KB). Loaded Objects now: 3974.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 6.674300 ms (FindLiveObjects: 0.687700 ms CreateObjectMapping: 0.650400 ms MarkObjects: 5.224600 ms  DeleteObjects: 0.108700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98125.670202 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLineDeadlockLine.prefab
+  artifactKey: Guid(307be913d92f7b340af2dff8fdc81c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLineDeadlockLine.prefab using Guid(307be913d92f7b340af2dff8fdc81c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f751bca9d1dfe57f2d6377b123880387') in 0.370475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceTriple.prefab
+  artifactKey: Guid(e7319d5bcd3d61146a531b99a27c7dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceTriple.prefab using Guid(e7319d5bcd3d61146a531b99a27c7dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca4e6f3ba80d40852648bf551e0461') in 0.087231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockLine.prefab
+  artifactKey: Guid(4637e80714328ca4b9b308db7d7ec706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockLine.prefab using Guid(4637e80714328ca4b9b308db7d7ec706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec4af04bf988f9c50b6952227b0374e') in 0.069639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockTriple.prefab
+  artifactKey: Guid(6dd9da1b8b512ce4688ef9e1dd94a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockTriple.prefab using Guid(6dd9da1b8b512ce4688ef9e1dd94a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135cd1f564e21d1a4ac530e47f0b80e9') in 0.066234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLine.prefab
+  artifactKey: Guid(74a13157f5d70e9469f4709b857a943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLine.prefab using Guid(74a13157f5d70e9469f4709b857a943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752210064da6e387aff9f0bba7182571') in 0.061757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceTripleDeadlock.prefab
+  artifactKey: Guid(8e672c1732ca08c4eb4de981213da867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceTripleDeadlock.prefab using Guid(8e672c1732ca08c4eb4de981213da867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954e20dee5b6511b332a6e67357ed7fe') in 0.064156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlock.prefab
+  artifactKey: Guid(353cab8d24e45964da88e85a7ff80984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlock.prefab using Guid(353cab8d24e45964da88e85a7ff80984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e80910e07a4db35cbf92de262428df6') in 0.061718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockCrossing.prefab
+  artifactKey: Guid(e20a25dc68c94284eb60e9d5ae51b6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockCrossing.prefab using Guid(e20a25dc68c94284eb60e9d5ae51b6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd81d9be70a25f3de96b07b7f5c52fe') in 0.084521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCrossing.prefab
+  artifactKey: Guid(112de6f23d512ff499a468ce1483cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCrossing.prefab using Guid(112de6f23d512ff499a468ce1483cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a52c3d63df418e950765a58f825f14') in 0.066245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QBall.prefab
+  artifactKey: Guid(361e1ff45ea74614682054b0e1d4414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QBall.prefab using Guid(361e1ff45ea74614682054b0e1d4414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57020ec36b62f51820d1cd437f25eec') in 0.045530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockCorner.prefab
+  artifactKey: Guid(44893e03c66fa1c4489d068c30eece38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDeadlockCorner.prefab using Guid(44893e03c66fa1c4489d068c30eece38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ccf906a8a337857b550704c53b3967') in 0.061881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLineDeadlock.prefab
+  artifactKey: Guid(5d369d679bed57e4da0544d9590923db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceLineDeadlock.prefab using Guid(5d369d679bed57e4da0544d9590923db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f903a3cdeb5c63f2ba5778129932a92f') in 0.063976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceNone.prefab
+  artifactKey: Guid(b344e139d5167174f8ee1684c71cb046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceNone.prefab using Guid(b344e139d5167174f8ee1684c71cb046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7afee6bcac028dc1549a834b9692277') in 0.071227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockLeft.prefab
+  artifactKey: Guid(6d1e2932ccedbc74486db689b9838147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockLeft.prefab using Guid(6d1e2932ccedbc74486db689b9838147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339ed001a9d31840f5ae44fc7af64d41') in 0.059023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCorner.prefab
+  artifactKey: Guid(c3240ae6fba96a4499f6ee5c32ed942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCorner.prefab using Guid(c3240ae6fba96a4499f6ee5c32ed942d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fea6a2b6d6a038158e6c388cb0df1ac') in 0.062978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs
+  artifactKey: Guid(13833cdaba815e144b41f3a1a1a04766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs using Guid(13833cdaba815e144b41f3a1a1a04766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaa59846065f037d6e06e34c795f0f9') in 0.015613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDoubleCorner.prefab
+  artifactKey: Guid(2323211122bf0944aab13217e48eeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceDoubleCorner.prefab using Guid(2323211122bf0944aab13217e48eeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aeeab423f2cb71c6acd9f1628d5a24') in 0.067174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockCorner.prefab
+  artifactKey: Guid(f5e42a136ecbba842b0461f64bb0160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockCorner.prefab using Guid(f5e42a136ecbba842b0461f64bb0160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8762e7546c5ba223aa9fdfd48e2f33f') in 0.065725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockRight.prefab
+  artifactKey: Guid(614690c6e12d23d48a0ce5795c72dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceCornerDeadlockRight.prefab using Guid(614690c6e12d23d48a0ce5795c72dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b072fe6d150938554d32dee02d08b87f') in 0.067109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceFinish.prefab
+  artifactKey: Guid(25f26cbd8e079e74393cd78a654dbcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceFinish.prefab using Guid(25f26cbd8e079e74393cd78a654dbcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd41cbb4e870712318ce18b7b8b667e2') in 0.065148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QMazeEngine.prefab
+  artifactKey: Guid(788ef6bb40f3fb24bb93b05cba690ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QMazeEngine.prefab using Guid(788ef6bb40f3fb24bb93b05cba690ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e416a73d6bf26a4f942ef1150be915') in 0.052928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceStart.prefab
+  artifactKey: Guid(5674a0b9b25b4fa41abb1ece341e0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceStart.prefab using Guid(5674a0b9b25b4fa41abb1ece341e0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f566e404a65d364c3dcf873eb0524a6') in 0.080460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QFinishFX.prefab
+  artifactKey: Guid(e6bacc2e03b7fe2409b6d9ea3fcd51cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QFinishFX.prefab using Guid(e6bacc2e03b7fe2409b6d9ea3fcd51cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2d23992287d37a86edb8c2c5c1b91d') in 0.039573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QTPSCamera.prefab
+  artifactKey: Guid(1a7f57265068f8b4bafe76575701ac1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QTPSCamera.prefab using Guid(1a7f57265068f8b4bafe76575701ac1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb91b367c6037fb136684b26285c317') in 0.024205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceIntersection.prefab
+  artifactKey: Guid(c1d14b127a665cf4789bc44fb402f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QMaze/Examples/ExampleScene1/Prefabs/QPieceIntersection.prefab using Guid(c1d14b127a665cf4789bc44fb402f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192e1b340f623ed7c80fb9a0899add96') in 0.062259 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017602 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\game-development\pro-maze-generator-test\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\game-development\pro-maze-generator-test\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2228ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1647ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+				TypeCache.Initialize (556ms)
+					TypeCache.ScanAssembly (547ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (717ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (16ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3483 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (25.4 KB). Loaded Objects now: 3972.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 5.720900 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.276800 ms MarkObjects: 4.882200 ms  DeleteObjects: 0.043300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158.294761 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(3a78225ae47c07049aa3692d5ba71343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(3a78225ae47c07049aa3692d5ba71343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e704af1c69912ed7d24afe6b9c75016b') in 0.179380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.196235 seconds.
+  path: Assets/Wall.prefab
+  artifactKey: Guid(75432d7fc261fab44aedecfb491f16d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wall.prefab using Guid(75432d7fc261fab44aedecfb491f16d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843c2b8f32aadb867b649645c8f28ac2') in 0.040910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.723491 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_COL_3K 1.mat
+  artifactKey: Guid(92eaf572eb21a6141bbf31c4c784d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_COL_3K 1.mat using Guid(92eaf572eb21a6141bbf31c4c784d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f8cac0b1336afeaea53f79aea9d173') in 0.178491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_COL_3K 2.mat
+  artifactKey: Guid(71a75faf9e813a44a92f7762e21e7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_COL_3K 2.mat using Guid(71a75faf9e813a44a92f7762e21e7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca07a9076c94b91f4f97f082131e583') in 0.086300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.979001 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_COL_3K.mat
+  artifactKey: Guid(9d5f3062caba2e2458e1c9d6678683b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_COL_3K.mat using Guid(9d5f3062caba2e2458e1c9d6678683b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e68d8119499e5ce70b9a30f25bfd26') in 0.022941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.951567 seconds.
+  path: Assets/BG.jpg
+  artifactKey: Guid(566c495f0b4e6ab43b5820c3c7f8e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BG.jpg using Guid(566c495f0b4e6ab43b5820c3c7f8e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1dc539e52143b31e98a857b3d5e6bd') in 0.064485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_COL_3K.jpg
+  artifactKey: Guid(d3310c9c2c04ef34b9b5dfa3ff82e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_COL_3K.jpg using Guid(d3310c9c2c04ef34b9b5dfa3ff82e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0872238469d7289559f17f5095563200') in 0.034445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_GLOSS_3K.jpg
+  artifactKey: Guid(1acaae62869a40e40970c07f0d37e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_GLOSS_3K.jpg using Guid(1acaae62869a40e40970c07f0d37e482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f834769fc52dbb8c3c371ed624b76e27') in 0.040813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_NRM_3K.jpg
+  artifactKey: Guid(618d8821818511d43919609b4ed5e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_NRM_3K.jpg using Guid(618d8821818511d43919609b4ed5e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad6f9bbb0729d2c0d797c6d62b7cc01') in 0.032852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_DISP_3K.jpg
+  artifactKey: Guid(30fa23998403fd749ac2f0a925de5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_DISP_3K.jpg using Guid(30fa23998403fd749ac2f0a925de5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a318e0afce2e2a3cdb23517c848c99') in 0.032103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.393741 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8165099f8bfd50797b2ebe9f8b211b') in 0.012203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.176949 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(b7f94b046879a904aa07ecdb972d4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(b7f94b046879a904aa07ecdb972d4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee81ccec6e208b70d447baa1c139db0') in 0.082489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.120476 seconds.
+  path: Assets/ProMazeGenerator/Plugins/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png
+  artifactKey: Guid(005888ede18a58e4db8d069cfa3007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProMazeGenerator/Plugins/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png using Guid(005888ede18a58e4db8d069cfa3007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36eb19937a1aa614ddac6ee7f5c8a8') in 0.119352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.783765 seconds.
+  path: Assets/TilesOnyxOpaloBlack001_NRM_3K.jpg
+  artifactKey: Guid(618d8821818511d43919609b4ed5e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilesOnyxOpaloBlack001_NRM_3K.jpg using Guid(618d8821818511d43919609b4ed5e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722474e75d833a76827dc1dec8d77ba3') in 0.061580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.178964 seconds.
+  path: Assets/ProMazeGenerator/Demo/Prefabs/Column Wall 1.prefab
+  artifactKey: Guid(bdb3b6df3a0c42140bd1f605d12c4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProMazeGenerator/Demo/Prefabs/Column Wall 1.prefab using Guid(bdb3b6df3a0c42140bd1f605d12c4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4e6fa952973dccab8225aa391c1494') in 0.061706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.704101 seconds.
+  path: Assets/ProMazeGenerator/Demo/Prefabs/Wall.prefab
+  artifactKey: Guid(bdb3b6df3a0c42140bd1f605d12c4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProMazeGenerator/Demo/Prefabs/Wall.prefab using Guid(bdb3b6df3a0c42140bd1f605d12c4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2674b1e5e004060770155660f53a21') in 0.025513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.526946 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(b7f94b046879a904aa07ecdb972d4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(b7f94b046879a904aa07ecdb972d4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85315fde40d5bb7d46bec7d920d4d2c4') in 0.632284 seconds 
